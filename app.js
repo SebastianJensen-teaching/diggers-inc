@@ -84,7 +84,7 @@ function updateFields() {
     healthField.innerHTML = health;
     depthField.innerHTML = depth / 100 + "m";
     ironField.innerHTML = iron + " lumps";
-    upgradeButton.innerHTML = "Upgrade Equipiment (" + upgradeCost + ")";
+    upgradeButton.innerHTML = "Upgrade Equipment (" + upgradeCost + ")";
 }
 
 updateFields();
